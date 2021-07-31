@@ -1,0 +1,1 @@
+Logistic regression classification: in linear regression we wanted to solve the problem of y=wX+b where (Y-y)^2 was minimized. However, with classification, we want to categorize the data in multiple classes. So we'll need a special function such a Sigmoid=1/(1-e^y), y is the linear regression equation. 

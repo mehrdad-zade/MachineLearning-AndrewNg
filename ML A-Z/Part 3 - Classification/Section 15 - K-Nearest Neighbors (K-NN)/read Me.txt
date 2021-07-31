@@ -1,0 +1,6 @@
+If we have two categories in our data set but we don't know which one belongs to a new data point we can use classification.
+
+K-Nearest:
+step1. Choose number of k neighbors (Usually default is 5) and find the Euclidean distance with the datapoint you want to associate the class with.
+step2. Count the number of datapoint in each k neighbor
+step3. Which ever had a greater count assign the datapoint to that class.

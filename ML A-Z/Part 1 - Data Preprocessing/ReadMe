@@ -1,0 +1,5 @@
+Before thinking of a model for analyzing the data you should understand the data itself. this process starts with preprocessing the dataset. You should deal with things such as missing data (by removing the lines or fill in the columns by taking the mean of that column), dealing with categorical data (categories like yes/no and different countries. You want to assign some sort of number to them to be able to assign mathematical analysis on them).
+
+Other steps in preprocessing involves splitting the data into training set and testing set. 
+
+Finally feature scaling should be observed on the data set because some columns are in different ranges of values. If some of these columns have values that are much larger than others it might get unnecessary and unfair reliance by the machine learning models. So we need to keep them all in the same range. One way to handle this situation is to subtract the mean of each column from the specific value and divide it by either the difference of the max and min value of the column (standardization) or dividing it by the standard deviation (standardization) of that column.

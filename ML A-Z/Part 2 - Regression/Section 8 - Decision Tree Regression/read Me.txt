@@ -1,0 +1,3 @@
+Regression trees are a Kind of decision trees. Imagine a scatter plot where we are working with two features x1 and x2. The data is projected on a 2D plot. The algorithm will create a split vertically and horizontally on the data. The meaning of each split is that, we are trying to add more information to the setup by dividing them further. We can stop at certain point on the leaf; I.e. stop when the leaf has less than 5% of the data.
+
+Imagine the splits as a binary tree. Each split translates to a left or right subtree. Then you can average the datapoint in each category for decision making (or similar ideas). 

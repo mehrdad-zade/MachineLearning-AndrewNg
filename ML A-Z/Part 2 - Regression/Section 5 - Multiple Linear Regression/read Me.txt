@@ -1,0 +1,11 @@
+The dataset has 50 companies, each has income report details such how much they spend on marketing, research, employee and so on. We have the annual profit for each one too. Now we want to know which type of investments is the most profitable.
+
+In multiple linear regression we want to solve this equation: y=w0 + w1.X + wn.Xn.
+
+In the preprocessing step, we have locations such as New York on the dataset. We need to add a column for each location and set 1 or 0 for each company. 
+
+Learn about P value https://www.mathbootcamps.com/what-is-a-p-value/. Based on P value you can choose different algorithms to build your model such as: All-in, backward elimination, forward elimination, bidirectional elimination or score comparison.
+
+
+
+ 

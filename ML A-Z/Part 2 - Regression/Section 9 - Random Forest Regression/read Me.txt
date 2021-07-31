@@ -1,0 +1,5 @@
+Random Forest Tree: 
+step1. find a random k datapoint from the dataset. 
+step2. Build a decision tree based on k. 
+step3. Choose a Ntree and repeat previous steps
+step4. Find Y for each Ntree. Then take the average of the decision.

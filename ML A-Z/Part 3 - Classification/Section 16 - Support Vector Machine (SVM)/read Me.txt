@@ -1,0 +1,1 @@
+Find the support vectors and draw the hyper plane in between those as your classification divider. 

@@ -1,0 +1,7 @@
+R-Squared: in linear regression we want to minimize sum of squared which is (Y-y)^2. Total sum of squares is (Y-yAverage)^2. R-Squares is: R^2 = 1 - (sum of squared)/(Total sum of squares). So R squared will tell you how good is your model compared to the average line. If R^2~=1 the better your model. 
+Same can be used for multiple linear regression too, however once you keep adding more features, ideally those will minimize the sum of squared which will keep the R-Squared high. Even if the new features won't enhance the model then the impact of the feature will be low and eventually R-Square will remain the same again. So R-Squared is usually used for 2 variable problem.
+
+Adjusted R-Squared: this is used for multiple linear regressions. If we have features which are not useful you will get penalized with this model.
+P=number of regressors
+n=sample size
+Adj R^2 = 1 - (1- R^2) * (n-1)/(n-p-1)

@@ -1,0 +1,5 @@
+The data set contains annual salary with the number of years of experience. The data owner wants to know how much salary should they give someone whom they newly want to hire based on number of his experience. What is the correlation between salary and the number of years of experience. 
+
+We can project this data on a graph where experience is on X axis and income is on Y. We need to find the best line that approximate this correlation based on y=wX+c. To find the optimum line, we'll search the minimum sum of square: minimize (Y-y)^2.
+
+We'll read the data and fitting it to the training set and then predict the test set result. Then we can plot the result.

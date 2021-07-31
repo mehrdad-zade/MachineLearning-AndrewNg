@@ -1,0 +1,9 @@
+Data set is about salaries based on position
+
+In polynomial linear regression we want to solve this equation: y=w0 + w1.X + wn.X^n. The reason we call it linear is because weights are linear.
+
+
+
+
+
+ 
